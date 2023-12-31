@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const instance = axios.create({
-	// baseURL: 'https://api.mcloc.cn',
-	// timeout: 1000,
-	// headers: { 'X-Custom-Header': 'foobar' },
+	baseURL: 'https://api.mcloc.cn',
+	timeout: 1000,
+	headers: { 'X-Custom-Header': 'foobar' },
 })
 
 // 添加请求拦截器
