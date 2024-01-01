@@ -1,9 +1,9 @@
 import axios from 'axios'
 
 const instance = axios.create({
-	baseURL: 'https://bing.mcloc.cn',
+	baseURL: 'https://ioi.fly.dev',
 	timeout: 1000,
-	headers: { 'X-Custom-Header': 'foobar' },
+	//headers: { 'X-Custom-Header': 'foobar' },
 })
 
 // 添加请求拦截器
