@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const instance = axios.create({
-	baseURL: 'https://viv.fly.dev',
+	baseURL: 'https://bing-mooccube.koyeb.app',
 	timeout: 1000,
 	//headers: { 'X-Custom-Header': 'foobar' },
 })
