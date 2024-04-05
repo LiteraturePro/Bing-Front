@@ -8,9 +8,23 @@ on:
     - cron: "1,3,4,7 * * * *"
 
 jobs:
-  autogreen:
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Auto build
-        run: |
-          pnpm build
+    - name: Checkout code
+      uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: 14
+
+    - name: Install dependencies
+      run: |
+        npm install -g pnpm
+        pnpm install
+
+    - name: Build
+      run: |
+        pnpm build
