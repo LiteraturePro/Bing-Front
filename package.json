@@ -33,7 +33,7 @@
     "vue": "^3.2.37"
   },
   "engines": {
-    "node": ">=14"
+    "node": ">=16"
   },
   "devDependencies": {
     "@arco-design/web-vue": "^2.37.1",
