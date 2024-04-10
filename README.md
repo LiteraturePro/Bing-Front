@@ -7,7 +7,7 @@
 
 ### 预览
 
-![image](../doc/image.png)
+https://bing-lac-sigma.vercel.app
 
 
 
