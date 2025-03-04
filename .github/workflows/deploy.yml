@@ -29,7 +29,7 @@ jobs:
           node-version: 18
 
       - name: Install step
-        run: " rm -rf pnpm-lock.yaml && npm install -g pnpm && pnpm install && pnpm update"
+        run: "rm -rf pnpm-lock.yaml && npm install -g pnpm && pnpm install && pnpm update vite-plugin-md @yankeeinlondon/happy-wrapper "
 
       - name: Build step
         run: "pnpm build"
